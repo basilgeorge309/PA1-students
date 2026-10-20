@@ -1,0 +1,4 @@
+resource_id,resource_name,unit,capacity
+R1,Machine hours,hours/week,100
+R2,Labor hours,hours/week,80
+R3,Hardwood panels,panels/week,40

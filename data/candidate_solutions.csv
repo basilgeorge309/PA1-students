@@ -1,0 +1,7 @@
+candidate_point,type,value_1,value_2,value_3
+P1,primal,20,10,10
+P2,primal,25,20,15
+P3,primal,24,16,12
+D1,dual,15,5,10
+D2,dual,10,4,8
+D3,dual,14,4,8

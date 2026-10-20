@@ -1,0 +1,81 @@
+{
+  "A": {
+    "description": "Mystery A",
+    "c": [
+      3,
+      2
+    ],
+    "A": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "b": [
+      4,
+      2,
+      3
+    ]
+  },
+  "B": {
+    "description": "Mystery B",
+    "c": [
+      1,
+      1
+    ],
+    "A": [
+      [
+        1,
+        -1
+      ]
+    ],
+    "b": [
+      1
+    ]
+  },
+  "C": {
+    "description": "Mystery C",
+    "objective_sense": "max",
+    "c": [
+      1
+    ],
+    "A": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "senses": [
+      "<=",
+      ">="
+    ],
+    "b": [
+      1,
+      2
+    ],
+    "standard_form_A": [
+      [
+        1
+      ],
+      [
+        -1
+      ]
+    ],
+    "standard_form_b": [
+      1,
+      -2
+    ],
+    "initialization_slack": "s3",
+    "penalized_objective": "maximize x1 - M*s3"
+  }
+}

@@ -1,0 +1,6 @@
+option,description,delta_machine,delta_labor,delta_hardwood,rental_cost
+A,Add 20 machine hours,20,0,0,200
+B,Add 30 labor hours,0,30,0,80
+C,Add 30 hardwood panels,0,0,30,110
+D,Add 60 machine hours,60,0,0,700
+None,No capacity change,0,0,0,0
